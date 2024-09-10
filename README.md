@@ -37,24 +37,24 @@ pom.xml: The project's dependencies configuration.
 ## TESTS
 
 1. ProductControllerTest
-    -- Find a product by id.
-    -- Product name cannot exceed 200 characters.
-    -- Product name cannot be empty.
-    -- Restricted set of labels
-    -- Product name already exists.
-    -- Delete a product by id.
+    - Find a product by id.
+    - Product name cannot exceed 200 characters.
+    - Product name cannot be empty.
+    - Restricted set of labels
+    - Product name already exists.
+    - Delete a product by id.
 
 2. ShoppingCartTest
-    -- Create a cart.
-    -- Update cart with product.
-    -- Cannot update a checked out cart.
-    -- Check out api with total price
+    - Create a cart.
+    - Update cart with product.
+    - Cannot update a checked out cart.
+    - Check out api with total price
 
 ## Getting Started:
 
-Unzip the folder and open the folder in an editor of your choice - I used VS code.
-Install the required dependencies (Maven).
-Configure your database connection details in application.properties.
-Refer Local_DB.session.sql file to create all the necessary tables.
-Run the application using mvn spring-boot:run.
-Access the API endpoints and documentation as described above.
+- Unzip the folder and open the folder in an editor of your choice - I used VS code.
+- Install the required dependencies (Maven).
+- Configure your database connection details in application.properties.
+- Refer Local_DB.session.sql file to create all the necessary tables.
+- Run the application using mvn spring-boot:run.
+- Access the API endpoints and documentation as described above.
